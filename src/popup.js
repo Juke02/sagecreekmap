@@ -15,7 +15,7 @@ export function initializePopup(textureLoader, sphereRef) {
     document.body.appendChild(popup);
 
     const popupImage = document.createElement('img');
-    popupImage.src = '/map1.png';
+    popupImage.src = 'map1.png';
     popupImage.draggable = false;
     popup.appendChild(popupImage);
 

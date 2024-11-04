@@ -17,7 +17,7 @@ function App() { //Creates a sphere, applys a texture to it, and places camera i
 
     const geometry = new THREE.SphereGeometry(15, 64, 64);
     const textureLoader = new THREE.TextureLoader();
-    const texture = textureLoader.load('/6.png'); 
+    const texture = textureLoader.load('6.png'); 
     const material = new THREE.MeshBasicMaterial({
       map: texture,
       side: THREE.DoubleSide,
