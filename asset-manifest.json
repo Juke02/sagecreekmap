@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/sagecreekmap/static/css/main.d71399b8.css",
+    "main.js": "/sagecreekmap/static/js/main.f3605824.js",
+    "static/js/453.ca6ded76.chunk.js": "/sagecreekmap/static/js/453.ca6ded76.chunk.js",
+    "index.html": "/sagecreekmap/index.html",
+    "main.d71399b8.css.map": "/sagecreekmap/static/css/main.d71399b8.css.map",
+    "main.f3605824.js.map": "/sagecreekmap/static/js/main.f3605824.js.map",
+    "453.ca6ded76.chunk.js.map": "/sagecreekmap/static/js/453.ca6ded76.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d71399b8.css",
+    "static/js/main.f3605824.js"
+  ]
+}
