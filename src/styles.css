@@ -1,0 +1,89 @@
+/* Button Styling */
+button {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Popup Container Styling */
+  #popup {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: width 0.4s ease, height 0.4s ease;
+}
+  
+  /* Larger Image Styling */
+  #popup img {
+    width: 600px;  /* Set larger width for the image */
+    height: auto;
+    margin-bottom: -5px;
+  }
+  
+  /* Close Button Styling */
+  #popup button {
+    display: block;
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Circle Button Styling */
+  .circle-button {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    background-color: rgba(0, 153, 255, 0.75); /* Visible blue background */
+    border-radius: 50%;    /* Makes it a circle */
+    cursor: pointer;
+    z-index: 1001;         /* Ensure it appears on top */
+    transition: transform 0.3s ease;
+  }
+  
+  .circle-button:hover {
+    transform: scale(1.2); /* Slightly increase size on hover */
+  }
+  
+  /* Slider Styling */
+  #floor-slider {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+  }
+  
+  /* Slider Label Styling */
+  #floor-label {
+    position: absolute;
+    top: 6px;
+    right: 145px;
+    z-index: 1000;
+    color: #fff;
+    background-color: #333;
+  }
+  
+  /* Shared Styling for buttons and labels */
+  .shared-font-style {
+    font-family: 'Arial', sans-serif; /* Example font family, replace with the actual font */
+    font-size: 14px;                  /* Same font size */
+    color: #fff;                      /* Text color */
+    background-color: #333;           /* Background color for the button */
+    padding: 5px;
+    border: none;
+  }
+  
+  
